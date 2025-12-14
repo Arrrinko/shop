@@ -1,0 +1,74 @@
+body {
+    font-family: "Raleway", serif;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.section-container{
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.button-wrapper {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+ .button-wrapper .button {
+    flex-direction: row;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    background: rgba(0, 0, 0, 1);
+    padding: 17px 74px;
+    width: 100%;
+    text-align: center;
+
+
+}
+.button-wrapper .button-line {
+    display: flex;
+    flex-direction: row;
+    width: 2px;
+    height: 50px;
+    background: rgba(0, 0, 0, 1);
+}
+
+
+.container .price {
+    font-family: "Josefin Sans", serif;
+    align-items: center;
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.container .price .old-price {
+    text-decoration: line-through;
+    color: rgba(68, 68, 68, 1);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.container .price .new-price {
+    font-family: "Josefin Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
